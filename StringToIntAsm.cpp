@@ -20,7 +20,6 @@ int main(int argc, char** argv)
 		mov eax, y
 		mov ebx, [lenas] 
 		add eax, ebx
-		mov [lenas],ebx
 		xor edx,edx
 		xor ecx,ecx
 		inc edx
